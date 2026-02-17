@@ -1,0 +1,16 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
+    "moment-timezone": "^0.5.45",
+    "axios": "^1.7.4",
+    "fca-smart-shankar": "latest"
+  }
+}
