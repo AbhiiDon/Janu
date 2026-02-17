@@ -49,7 +49,7 @@ let globalTargetIndex = 0;
 
 const app = express();
 app.get("/", (_, res) => res.send("<h2>Messenger Bot Running</h2>"));
-app.listen(5000, () => console.log("🌐 Log server running"));
+app.listen(12373, () => console.log("🌐 Log server running"));
 
 process.on("uncaughtException", err =>
 console.error("❗ Uncaught:", err.message)
